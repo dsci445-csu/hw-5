@@ -1,12 +1,18 @@
-# hw-5
+---
+title: "DSCI445 - Homework 5"
+author: "Your Name"
+date: "Due 11/06/2019 by 4pm"
+output: pdf_document
+---
 
-Homework 5 in DSCI445: Statistical Machine Learning @ CSU
+Be sure to `set.seed(445)` at the beginning of your homework. 
 
-## Assignment
+```{r}
+#reproducibility
+set.seed(445)
+```
 
-Be sure to `set.seed(445)`.
-
-### Non-linear Models
+# Non-linear Models
 
 1. We know that a cubic regression spline with one knot at $\xi$ can be obtained using a basis of the form $x, x^2, x^3, (x - \xi)^3_+$ where $(x - \xi)^3_+ = (x - \xi)^3$ if $x > \xi$ and $0$ otherwise. We will now show that a function of the form
 $$
@@ -106,7 +112,7 @@ is a cubic regression spline, regardless of the values of $\beta_0, \beta_1, \be
     h. Choose a different starting value for $\beta_1$ and repeat steps b.-g. Compare your results.
 
 
-### Tree-based Models
+# Tree-based Models
 
 6. This problem involves the $OJ$ data set in the $ISLR$ package.
 
@@ -147,3 +153,5 @@ is a cubic regression spline, regardless of the values of $\beta_0, \beta_1, \be
     g. Now apply bagging to the training data set. What is the test MSE for this approach?
     
     h. Now apply random forest to the training data set. What is the test MSE for this approach?
+
+Turn in in a pdf of your homework to canvas using the provided Rmd file as a template. Your Rmd file on rstudio.cloud will also be used in grading, so be sure they are identical.
