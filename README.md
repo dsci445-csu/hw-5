@@ -118,7 +118,7 @@ is a cubic regression spline, regardless of the values of $\beta_0, \beta_1, \be
     
     e. Apply the cross validation to the training set in order to determine the optimal tree size.
     
-    f. Produce a plot with complexity on the $x$-axis and CV error rate (or CV accuracy) on the $y$-axis. Which tree size corresponds to the lowest CV classification error rate?
+    f. Produce a plot with complexity on the x-axis and CV error rate (or CV accuracy) on the y-axis. Which tree size corresponds to the lowest CV classification error rate?
     
     g. Produce a pruned tree corresponding to the optimal tree size. If CV doesn't lead to the selection of a pruned tree, then create a pruned tree with five terminal nodes.
     
@@ -144,9 +144,11 @@ is a cubic regression spline, regardless of the values of $\beta_0, \beta_1, \be
     
     h. Now apply random forest to the training data set. What is the test MSE for this approach?
     
-**Be sure to share your server project with the instructor and grader:**
+Turn in in a pdf of your homework to canvas using the provided Rmd file as a template. Your Rmd file on the server will also be used in grading, so be sure they are identical.
 
-1. Open your hw-5 project on liberator.stat.colostate.edu
+**Be sure to share your server project with the instructor and grader. You only need to do this once per semester.**
+
+1. Open your `homeworks` project on liberator.stat.colostate.edu
 2. Click the drop down on the project (top right side) > Share Project...
     
     <img src="share_project.png" alt="plot of chunk unnamed-chunk-1" width="25%" />
@@ -155,4 +157,4 @@ is a cubic regression spline, regardless of the values of $\beta_0, \beta_1, \be
 
     <img src="share_dropdown.png" alt="plot of chunk unnamed-chunk-2" width="25%" />
 
-This is how you **receive points** for reproducibility on your homework!   
+This is how you **receive points** for reproducibility on your homework!
